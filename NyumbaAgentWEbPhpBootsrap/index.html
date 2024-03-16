@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyumbaAgent</title>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="./allstyles.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!--ends here links------>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+    <style>
+        body {
+            background-color: darkolivegreen;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            border: none;
+        }
+    </style>
+</head>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+        <!---------------header links------------------------------------------------>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card"
+                        style="margin-top:20px;height:350px;width:750px;margin-left: 160px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#"
+                                    style="color: darkgreen;"><strong>NyumbaAgent</strong></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarScroll">
+                                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                                        style="--bs-scroll-height: 100px;">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="./blog.html">Blog</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">News</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Rentals
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                                <li><a class="dropdown-item" href="./rentals.html">Rental home</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                    <form class="d-flex">
+                                        <input class="form-control me-2" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                        <button class="btn btn-success" type="submit">Search</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </nav>
+                        <hr>
+                        <div class="card-body" style="margin-top: 60px;">
+                            <h5 style="color: darkgreen;font-size: 30px;">
+                                <center><strong>Welome NyumbaAgent home webpage</strong></center>
+                                <br>
+                                <button class="btn btn-success" style="margin-left: 30px;">NyumbaAgent</button>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------endes here--------------------------------------------------->
+
+
+        <!----------container image-------------------------------------------------->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <image src="./allImages/headerimg1.png"
+                        style="width:100%;height: 300px;box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;">
+                    </image>
+                </div>
+            </div>
+        </div>
+        <!----------------------ends her now----------------------------------------->
+
+
+        <!-----------------body section here----------------------------------------->
+        <div class="container-fluid bg-light text-center"
+            style="height: 3500px;width: 800px;margin-left: 250px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;">
+            <hr>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="card "
+                        style="width: 300px;height: 300px;box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;">
+                        <br>
+                        <h4><strong>
+                                <center>View Our Rentals</center>
+                            </strong></h4>
+                        <br>
+                        <hr>
+                        <a href="">
+                            <div class="icon"
+                                style="font-size: 45px;color:white;background-color: darkgreen;margin-top: 70px;border:
+                     4px solid darkgreen;border-radius: 100%;width: 90px;margin-left: 100px;box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;">
+                                <i class="bi bi-arrow-90deg-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card "
+                        style="width: 300px;height: 300px;box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;">
+                        <br>
+                        <h4><strong>
+                                <center>Click sample news</center>
+                            </strong></h4>
+                        <br>
+                        <hr>
+                        <a href="">
+                            <div class="icon"
+                                style="font-size: 45px;color:white;background-color: darkgreen;margin-top: 70px;border:
+                      4px solid darkgreen;border-radius: 100%;width: 90px;margin-left: 100px;box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;">
+                                <i class="bi bi-arrow-90deg-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row" style="margin-top: 100px;">
+                <hr>
+                <h4 style="color: darkgreen;">
+                    <center><strong>NYUMBA AGENT TEAM WORK</strong><br><br></center>
+                </h4>
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/manager.png"></image>
+                        <br>
+                        <p>
+                            <center><strong>Manager</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-phone-fill"></i>
+                        </div>
+                        call 1: +06878785774<br>
+                        call 2: +07678878577
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/team.png"></image>
+                        <br>
+                        <p>
+                            <center><strong>SolarAgent Team</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-instagram"></i></div>
+                        NyumbaAgentofficial<br>
+                        NyumbaAgentblog
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/itmanager.png"></image>
+                        <br>
+                        <p>
+                            <center><strong>Team</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-phone-flip"></i>
+                        </div>
+                        call 1:+0678785855<br>
+                        call 2: +0786848484
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 150px;">
+                <hr>
+                <h4 style="color: darkgreen;">
+                    <center><strong>NYUMBA AGENT RENTAL APARTMENTS</strong><br><br></center>
+                </h4>
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/apart1.png"></image>
+                        <br>
+                        <div class="icon" style="color: darkgreen;font-size: 40px;"><i class="bi bi-arrow-90deg-up"></i>
+                        </div>
+                        <br>
+                        <p>
+                            <center><strong>Masaki apartment</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-phone-flip"></i>
+                        </div>
+                        call 1: +06878785774<br>
+                        call 2: +07678878577
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/apart3.png"></image>
+                        <br>
+                        <div class="icon" style="color: darkgreen;font-size: 40px;"><i class="bi bi-arrow-90deg-up"></i>
+                        </div>
+                        <br>
+                        <p>
+                            <center><strong>Mbezi beach apartment</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-phone-flip"></i>
+                        </div>
+                        call 1: +07803785774<br>
+                        call 2: +06899978878
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/apart5.png"></image>
+                        <br>
+                        <div class="icon" style="color: darkgreen;font-size: 40px;"><i class="bi bi-arrow-90deg-up"></i>
+                        </div>
+                        <br>
+                        <p>
+                            <center><strong>Mbeya town apartment</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-phone-flip"></i>
+                        </div>
+                        call 1:+0678785855<br>
+                        call 2: +0786848484
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/apart6.png" style="height: 194px;"></image>
+                        <br>
+                        <div class="icon" style="color: darkgreen;font-size: 40px;"><i class="bi bi-arrow-90deg-up"></i>
+                        </div>
+                        <br>
+                        <p>
+                            <center><strong>Kahama apartment</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-phone-flip"></i>
+                        </div>
+                        call 1: +06832785774<br>
+                        call 2: +07885788785
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/apart7.png"></image>
+                        <br>
+                        <div class="icon" style="color: darkgreen;font-size: 40px;"><i class="bi bi-arrow-90deg-up"></i>
+                        </div>
+                        <br>
+                        <p>
+                            <center><strong>Mikochen 'B' apartment</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-phone-flip"></i>
+                        </div>
+                        call 1: +07812756564<br>
+                        call 2: +06798978999
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <image src="./allImages/apart8.png"></image>
+                        <br>
+                        <div class="icon" style="color: darkgreen;font-size: 40px;"><i class="bi bi-arrow-90deg-up"></i>
+                        </div>
+                        <br>
+                        <p>
+                            <center><strong>Nachingwea stand apartment</strong></center>
+                        </p>
+                        <div class="icon" style="color:darkgreen;font-size: 32px;"><i class="bi bi-phone-flip"></i>
+                        </div>
+                        call 1:+0670785855<br>
+                        call 2: +0784848482
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 200px;background-color:thistle;height: 500px;">
+                <h4 style="color: darkgreen;">
+                    <center><strong>NyumbaAgent contact us.<br></strong></center>
+                </h4>
+                <hr>
+                <div class="col-md-6">
+                    <div class="card">
+                        <image src="./allImages/apart6.png" style="width:400px;height: 320px;"></image>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        <div class="card">
+                            <br>
+                            <h4><strong>
+                                    <center>Customer Commnents</center>
+                                </strong></h4>
+                            <hr>
+                            <br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">First Name</label>
+                                            <input type="text" name="fname" placeholder="" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Last Name</label>
+                                            <input type="text" name="fname" placeholder="" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Email</label>
+                                            <input type="email" name="email" placeholder="" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Password</label>
+                                            <input type="text" name="fname" placeholder="" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="form-label">Comment</label>
+                                            <textarea type="" class="form-control" name="commnet"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <br><br>
+                                        <button type="submit" name="submit-commnet"
+                                            class="btn btn-success">submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 200px;">
+                <br>
+                <h4><strong>
+                        <center>NyumbaAgent sample news</center>
+                    </strong></h4>
+                <br>
+                <hr>
+                <div class="col-md-6">
+                    <div class="card">
+                        <image src="./allImages/manager.png"></image>
+                        <br>
+                        <p>
+                            <center><strong> NyumbaAgent Manager</strong></center>
+                        </p>
+                        <div class="icon"
+                            style="width: 80px;margin-left: 150px;color:darkgreen;font-size: 32px;border: 4px solid darkgreen;border-radius: 100%;">
+                            <i class="bi bi-envelope-at-fill"></i>
+                        </div>
+                        call 1: +06878785774<br>
+                        call 2: +07678878577
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4><strong>
+                            <center>Read NyumbaAgent news</center>
+                        </strong></h4>
+                    <br>
+                    <p>NyumbaAgent was started since 2003.<br>The founder of NyumbaAgent company group <strong>Mudhihir
+                            Hamis Nyema</strong>, manager of NyumbaAgent Company.<br>
+                        NyumbaAgent<br>we have diffents apartment includes <strong>Mbeya,Nachingwea,Masaki,Mikochen'B'
+                            and
+                            Kahama apartment</strong><br>
+                        NyumbaAgent company we offer customers restaurants,rentals, and nyumba apartments. Its
+                        supportive both for low and higher income earners wellcome, wellcome
+                        NyumbaAgent company for meeting your dreams.</p>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 180px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="icon"
+                        style="margin-left: 220px;color:darkgreen;font-size: 45px;border: 4px solid darkgreen;border-radius: 100%;width: 80px;">
+                        <i class="bi bi-arrow-bar-down"></i>
+                    </div>
+                    <br>
+                    <a href=""><button class="btn btn-success text-center" style="width: 250px;"> Click To
+                            <strong>Rental Now!!</strong></button></a>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <!------------------Ends Here now-------------------------------------------->
+
+
+
+        <!--------footer section here now-------------------------------------------->
+        <div class="container-fluid  text-center text-white"
+            style="background-color: darkslateblue;height:350px;margin-top:150px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;">
+            <div class="row">
+                <div class="col-md-4">
+                    <br>
+                    <h4><strong>
+                            <center>Apartments</center>
+                            </cente>
+                        </strong></h4>
+                    <div class="icon" style="margin-left: 170px;color:white;font-size: 45px;width: 80px;">
+                        <i class="bi bi-house-lock-fill"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <h4><strong>
+                            <center>Contacts</center>
+                            </cente>
+                        </strong></h4>
+                    <div class="icon" style="margin-left: 170px;color:white;font-size: 45px;width: 80px;">
+                        <i class="bi bi-envelope-at-fill"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <h4><strong>
+                        Rentals
+                            </cente>
+                        </strong></h4>
+                    <div class="icon" style="margin-left: 160px;color:white;font-size: 45px;width: 80px;">
+                        <i class="bi bi-arrow-down-right-square"></i>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:30px;">
+                    <div class="col-md-4">
+                        Mbeya Branch
+                    </div>
+                    <div class="col-md-4">
+                       Instagram NyumbaAgent.com
+                    </div>
+                    <div class="col-md-4">
+                        Fulhouse rental
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            MikochenI 'B' 
+                        </div>
+                        <div class="col-md-4">
+                            Whaatsapp NyumbaAgentofficial
+                        </div>
+                        <div class="col-md-4">
+                        Full  room rental
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            Nachingwea stand
+                        </div>
+                        <div class="col-md-4">
+                        Facebook NyumbaAgentofficial
+                        </div>
+                        <div class="col-md-4">
+                           Full Hostel rental
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            Kahama town
+                        </div>
+                        <div class="col-md-4">
+                            Twitter NyumbaAgentblog
+                        </div>
+                        <div class="col-md-4">
+                         Restaurants rental
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            Masaki apartment
+                        </div>
+                        <div class="col-md-4">
+                        Ticktok NyumbaAgentofficial
+                        </div>
+                        <div class="col-md-4">
+                            Single room house
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+        <!---------ends her------------------------------------------------------->
+
+
+        <!---------copyright footer------------------------------------------------>
+        <button class="btn btn-secondary text-center" style="width:1350px;">
+           Copyrighted All-rights reserved Developer(Mudhihir Hamis Nyema)->youngClever
+        </button>
+        <!--------------------ends here---------------------------------------------->
+
+
+    </div>
+    
+
+    <!--------------quick top---------------->
+    <a href="index.html" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <!------------------end her------------------->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 10);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
