@@ -1,1 +1,1 @@
-# AllMyProjects
+# MUDHIHIR HAMIS NYEMA repository, this repo it include all of my project that i did and i cont to do,technologies used includes: html,css(bootsrap+tailwind),php with laravel,mysql database,sql queries,java and spring boot,javascript(jquery,vue.js -< to nuxt.js and angular.js) and fiew of flutter portions, you can commit anytime,my carrier is System developer,Ardhi University, first degree of INFORMATION SYSTEM MANAGMENT, contact 0682131140,Gmail nyemamudhihir@gmail.com,Welcome any time ,Lord is first.
